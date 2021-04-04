@@ -1,0 +1,97 @@
+/* root */
+
+:root {
+    background: linear-gradient(to top left, #113b95, #9b136d);
+    height: 100%;
+    text-align: center;
+  }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+header {
+    text-align: center;
+    padding: 3rem 0;
+    border: solid black ;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: greenyellow;
+}
+
+/* main */
+
+main {
+    border: solid black;
+}
+
+.app {
+    margin: 1em auto;
+    width: 500px;
+    border: black solid;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+
+.display {
+    border: black solid;
+    margin: 1em 2em;
+    padding: 10px;
+    font-size: 30px;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button {
+    border: solid black;
+    border-radius: 5px;
+}
+
+button:focus {outline: none;}
+button:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+button:active {
+    transform: translateY(3px);
+    background-color: rgb(214, 212, 212);
+}
+
+.big-btn {
+    margin: 1em 2em;
+    padding: 7px;
+    font-size: 30px;
+    justify-content: space-evenly;
+    display: grid;
+}
+
+.button {
+    padding: 15px 30px;
+    grid-row: 2;
+    font-size: 20px;
+    background-color: rgb(246, 117, 139);
+}
+
+.small-btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 1em 3em;
+}
+
+.buttons {
+    padding: 15px 5px;
+    font-size: 20px;
+    background-color: white;
+}
