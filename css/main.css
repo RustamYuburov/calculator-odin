@@ -29,29 +29,33 @@ h1 {
 
 /* main */
 
-main {
+/* main {
     border: solid black;
-}
+} */
 
 .app {
     margin: 1em auto;
     width: 500px;
+    height: auto;
     border: black solid;
     background-color: darkgray;
     border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
 
 .display {
     border: black solid;
-    margin: 1em 2em;
+    margin: 1em 1em;
     padding: 10px;
-    font-size: 30px;
+    font-size: 35px;
     text-align: right;
     word-wrap: break-word;
     word-break: break-all;
     border-radius: 5px;
     background-color: white;
 }
+
+/* buttons */
 
 button {
     border: solid black;
@@ -61,7 +65,7 @@ button {
 button:focus {outline: none;}
 button:hover {
     transform: scale(1.05);
-    transition: 0.3s;
+    transition: 0.2s;
 }
 button:active {
     transform: translateY(3px);
@@ -69,7 +73,7 @@ button:active {
 }
 
 .big-btn {
-    margin: 1em 2em;
+    margin: 1em 1em;
     padding: 7px;
     font-size: 30px;
     justify-content: space-evenly;
@@ -87,7 +91,7 @@ button:active {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    margin: 1em 3em;
+    margin: 1em 2em;
 }
 
 .buttons {
