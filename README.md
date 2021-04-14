@@ -7,4 +7,4 @@ The benefits I got from this project:
   
 ## Live demo available down here:
 
-[Calculator]
+[Calculator](https://rustamyuburov.github.io/calculator-odin/);
